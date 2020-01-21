@@ -22,10 +22,10 @@ function fabricateQuestion(){
 
   //<div class="quizQuestion"><h1>What is this? Tell me now.</h1></div>
   //        <div class="quizAnswers">
-  //        <button class="choice">A: Apple</button>
-  //        <button class="choice">B: Balloon</button>
-  //        <button class="choice">C: Cat</button>
-  //         <button class="choice">D: Dunkaroos</button>
+  //        <button class="choice">answerA </button>
+  //        <button class="choice">answerB</button>
+  //        <button class="choice">answerC</button>
+  //         <button class="choice">answerD</button>
   //        </div>
 }
 
@@ -44,6 +44,17 @@ function displayAnswer(){
   // add class wrongAnswer to quizSection if correct = false
   // display answer
   // make <button class="continue">Next</button>
+
+  //right answer slide
+
+    //"<div class='quizSlide rightAnswer'><h1>The answer was " 
+    //+ quizAnswer + "</h1><button class='continueQuiz'>Next Question</button></div>"
+
+  //wrong answer slide
+    
+    //"<div class='quizSlide wrongAnswer'><h1>The answer was " 
+    //+ quizAnswer + "</h1><button class='continueQuiz'>
+    //Next Question</button></div>"
 }
 
 function continueQuiz(){
@@ -61,6 +72,12 @@ function scoreBoard(){
 
   //restart on click, set currentQuestion = 0 and then go to fabricateQuestion
 
+  //final slide
+   
+  // "<div class='quizSlide'><h1>" + correctAnswers + 
+  //" out of " + STORE.length + 
+  //" were answered correctly."
+  //</h1><button class='startQuiz'>Retry</button></div>"
 
 }
 
