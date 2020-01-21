@@ -1,3 +1,5 @@
+//Questiion
+
 //<div class="quizQuestion"><h1>What is this? Tell me now.</h1></div>
   //        <div class="quizAnswers">
   //        <button class="choice">answerA </button>
@@ -5,6 +7,8 @@
   //        <button class="choice">answerC</button>
   //         <button class="choice">answerD</button>
   //        </div>
+
+//Answer
 
 // "<div class='quizSlide'><h1>" + correctAnswers + 
   //" out of " + STORE.length + 
